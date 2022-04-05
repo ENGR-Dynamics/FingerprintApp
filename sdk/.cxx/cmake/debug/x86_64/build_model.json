@@ -1,0 +1,74 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "C:\\Users\\Tim\\Desktop\\ENGR\\Fingerprints\\fingerprint-app",
+      "sdkFolder": "C:\\Users\\Tim\\AppData\\Local\\Android\\Sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "C:\\Users\\Tim\\Desktop\\ENGR\\Fingerprints\\fingerprint-app\\sdk\\build\\intermediates",
+      "gradleModulePathName": ":sdk",
+      "moduleRootFolder": "C:\\Users\\Tim\\Desktop\\ENGR\\Fingerprints\\fingerprint-app\\sdk",
+      "makeFile": "C:\\Users\\Tim\\Desktop\\ENGR\\Fingerprints\\fingerprint-app\\sdk\\libcxx_helper\\CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "C:\\Users\\Tim\\Desktop\\ENGR\\Fingerprints\\fingerprint-app\\.cxx",
+      "cxxFolder": "C:\\Users\\Tim\\Desktop\\ENGR\\Fingerprints\\fingerprint-app\\sdk\\.cxx",
+      "ndkFolder": "C:\\Users\\Tim\\AppData\\Local\\Android\\Sdk\\ndk-bundle",
+      "ndkVersion": "22.1.7171670",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [
+      "-DANDROID_STL\u003dc++_shared"
+    ],
+    "cFlagList": [],
+    "cppFlagsList": [],
+    "variantName": "debug",
+    "soFolder": "C:\\Users\\Tim\\Desktop\\ENGR\\Fingerprints\\fingerprint-app\\sdk\\build\\intermediates\\cmake\\debug\\lib",
+    "objFolder": "C:\\Users\\Tim\\Desktop\\ENGR\\Fingerprints\\fingerprint-app\\sdk\\build\\intermediates\\cmake\\debug\\obj",
+    "jsonFolder": "C:\\Users\\Tim\\Desktop\\ENGR\\Fingerprints\\fingerprint-app\\sdk\\.cxx\\cmake\\debug",
+    "gradleBuildOutputFolder": "C:\\Users\\Tim\\Desktop\\ENGR\\Fingerprints\\fingerprint-app\\sdk\\.cxx\\cxx\\debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": [
+      "opencv_jni_shared"
+    ]
+  },
+  "abi": "X86_64",
+  "abiPlatformVersion": 29,
+  "cxxBuildFolder": "C:\\Users\\Tim\\Desktop\\ENGR\\Fingerprints\\fingerprint-app\\sdk\\.cxx\\cmake\\debug\\x86_64",
+  "jsonFile": "C:\\Users\\Tim\\Desktop\\ENGR\\Fingerprints\\fingerprint-app\\sdk\\.cxx\\cmake\\debug\\x86_64\\android_gradle_build.json",
+  "gradleBuildOutputFolder": "C:\\Users\\Tim\\Desktop\\ENGR\\Fingerprints\\fingerprint-app\\sdk\\.cxx\\cxx\\debug\\x86_64",
+  "objFolder": "C:\\Users\\Tim\\Desktop\\ENGR\\Fingerprints\\fingerprint-app\\sdk\\build\\intermediates\\cmake\\debug\\obj\\x86_64",
+  "buildCommandFile": "C:\\Users\\Tim\\Desktop\\ENGR\\Fingerprints\\fingerprint-app\\sdk\\.cxx\\cmake\\debug\\x86_64\\build_command.txt",
+  "buildOutputFile": "C:\\Users\\Tim\\Desktop\\ENGR\\Fingerprints\\fingerprint-app\\sdk\\.cxx\\cmake\\debug\\x86_64\\build_output.txt",
+  "modelOutputFile": "C:\\Users\\Tim\\Desktop\\ENGR\\Fingerprints\\fingerprint-app\\sdk\\.cxx\\cmake\\debug\\x86_64\\build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "C:\\Users\\Tim\\Desktop\\ENGR\\Fingerprints\\fingerprint-app\\sdk\\.cxx\\cxx\\debug\\x86_64\\CMakeLists.txt",
+    "toolchainWrapperFile": "C:\\Users\\Tim\\Desktop\\ENGR\\Fingerprints\\fingerprint-app\\sdk\\.cxx\\cxx\\debug\\x86_64\\android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "C:\\Users\\Tim\\Desktop\\ENGR\\Fingerprints\\fingerprint-app\\sdk\\.cxx\\cxx\\debug\\x86_64\\build_generation_state.json",
+    "cacheKeyFile": "C:\\Users\\Tim\\Desktop\\ENGR\\Fingerprints\\fingerprint-app\\sdk\\.cxx\\cxx\\debug\\x86_64\\compiler_cache_key.json",
+    "compilerCacheUseFile": "C:\\Users\\Tim\\Desktop\\ENGR\\Fingerprints\\fingerprint-app\\sdk\\.cxx\\cxx\\debug\\x86_64\\compiler_cache_use.json",
+    "compilerCacheWriteFile": "C:\\Users\\Tim\\Desktop\\ENGR\\Fingerprints\\fingerprint-app\\sdk\\.cxx\\cxx\\debug\\x86_64\\compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "C:\\Users\\Tim\\Desktop\\ENGR\\Fingerprints\\fingerprint-app\\sdk\\.cxx\\cxx\\debug\\x86_64\\compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "C:\\Users\\Tim\\Desktop\\ENGR\\Fingerprints\\fingerprint-app\\sdk\\.cxx\\cmake\\debug\\x86_64\\json_generation_record.json",
+  "compileCommandsJsonFile": "C:\\Users\\Tim\\Desktop\\ENGR\\Fingerprints\\fingerprint-app\\sdk\\.cxx\\cmake\\debug\\x86_64\\compile_commands.json"
+}

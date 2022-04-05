@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ENGR Dynamics Fingerprint App</string>
+    <string name="request_permission">This app needs camera permission.</string>
+    <string name="camera_error">This device does not support Camera2 API.</string>
+    <string-array name="fingers_array">
+        <item>1 (right thumb)</item>
+        <item>2 (right index)</item>
+        <item>3 (right middle)</item>
+        <item>4 (right ring)</item>
+        <item>5 (right pinky)</item>
+        <item>6 (left thumb)</item>
+        <item>7 (left index)</item>
+        <item>8 (left middle)</item>
+        <item>9 (left ring)</item>
+        <item>10 (left pinky)</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

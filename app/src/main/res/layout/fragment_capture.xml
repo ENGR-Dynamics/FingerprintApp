@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.CaptureFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/rectangleView2"
+        android:layout_width="327dp"
+        android:layout_height="578dp"
+        android:layout_marginStart="48dp"
+        android:background="@android:color/background_dark"
+        android:clickable="true"
+        android:focusableInTouchMode="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.986" />
+
+    <LinearLayout
+        android:layout_width="248dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="345dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="@+id/rectangleView2"
+        app:layout_constraintTop_toTopOf="@+id/rectangleView2">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ID"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editTextId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:background="@android:drawable/alert_light_frame"
+            android:ems="10"
+            android:gravity="center_vertical"
+            android:imeOptions="actionDone"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/fingerSpinner"
+        android:layout_width="205dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="404dp"
+        android:layout_weight="1"
+        android:background="@drawable/rectangle"
+        android:backgroundTint="@color/colorPrimary"
+        android:backgroundTintMode="add"
+        android:entries="@array/fingers_array"
+        android:spinnerMode="dialog"
+        app:layout_constraintStart_toStartOf="@+id/rectangleView2"
+        app:layout_constraintTop_toTopOf="@+id/rectangleView2" />
+
+    <LinearLayout
+        android:layout_width="240dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="454dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="@+id/rectangleView2"
+        app:layout_constraintTop_toTopOf="@+id/rectangleView2">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="44dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:foregroundGravity="center_horizontal"
+            android:gravity="center_vertical"
+            android:text="Set"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editTextSet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:ems="10"
+            android:gravity="center_vertical"
+            android:imeOptions="actionDone"
+            android:inputType="number"
+            android:text="1" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/cancel_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="63dp"
+        android:layout_marginBottom="30dp"
+        android:text="Cancel"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangleView2"
+        app:layout_constraintStart_toStartOf="@+id/rectangleView2" />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="30dp"
+        android:text="Save"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangleView2"
+        app:layout_constraintEnd_toEndOf="@+id/rectangleView2" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/ic_launcher_background"
+        app:layout_constraintStart_toStartOf="@+id/rectangleView2"
+        app:layout_constraintTop_toTopOf="@+id/rectangleView2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
